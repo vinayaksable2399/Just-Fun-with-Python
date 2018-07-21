@@ -187,7 +187,7 @@ def rgamma(m=1,n=1,l=1):
         for i in range(m):
             s=0
             for j in range(n):
-                s=s+expo(1,l)[0]
+                s=s+rexp(1,l)[0]
             x.append(s)
         return(array(x))
     #normal(u,s)
