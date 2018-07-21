@@ -7,6 +7,7 @@
 ### [Vinayak Sable](https://www.linkedin.com/in/vinayak-sable-675502131) -Student of Shivaji University
 
 ## Random Number Generation
+> Download this file the open ```__init__.py``` file in python, add Just-Fun-with-Python-master folder path in ``os.chdir( )`` then use the functions given below.
 
 ### Univariate Distributions
 
