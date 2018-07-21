@@ -177,11 +177,12 @@ def rexp(m=1,l=1):
         return(array(x))
     
     #GAMMA(n,theta)
-def rgamma(m,n,l):
+def rgamma(m=1,n=1,l=1):
         """
         for random number generation from gamma distribution
         
         """
+        assert l>=0, "please check your parameter"
         x=[]
         for i in range(m):
             s=0
