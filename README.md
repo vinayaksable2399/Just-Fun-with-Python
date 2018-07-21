@@ -1,8 +1,8 @@
 <img src="python.png" alt="python" width="140" height="170" align="right">
 
 
-# Just-Fun-with-Python
-*In which we makes random number generation function like R-software and some statistical function*
+# Just-Fun-with-Python 
+**_In which we makes random number generation function like R-software and some statistical function_**
 
 ### [Vinayak Sable](https://www.linkedin.com/in/vinayak-sable-675502131) -Student of Shivaji University
 
@@ -34,3 +34,5 @@
 + ``var``- variance of array 
 + ``cov``- covariance between two array
 + ``corr``- correlation between two array
+
+@github/support What do you think about these updates?
