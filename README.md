@@ -35,4 +35,4 @@
 + ``cov``- covariance between two array
 + ``corr``- correlation between two array
 
-@ vinayaksable2399
+@vinayaksable2399
