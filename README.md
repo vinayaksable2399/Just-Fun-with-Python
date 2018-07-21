@@ -6,9 +6,9 @@
 
 ### [Vinayak Sable](https://www.linkedin.com/in/vinayak-sable-675502131) -Student of Shivaji University
 
-# Random Number Generation
+## Random Number Generation
 
-## Univariate distributions
+### Univariate Distributions
 
 + ``rbeta``                 - Beta distribution over ``[0, 1]``.
 + ``rbinom``                - Binomial distribution.
@@ -24,10 +24,10 @@
 + ``rweibull``              - Weibull distribution.
 + ``gendis``                - General discrete distribution
 
-## Multivariate distributions
+### Multivariate Distributions
 + ``rmultin``              - Multivariate generalization of the binomial distribution.
 
-# Statistical function
+## Statistical Function
 + ``mode``- mode of array
 + ``median``- median of array
 + ``avg`` - mean of array
@@ -35,4 +35,3 @@
 + ``cov``- covariance between two array
 + ``corr``- correlation between two array
 
-@vinayaksable2399
