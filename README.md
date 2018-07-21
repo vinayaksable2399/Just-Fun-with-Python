@@ -35,3 +35,6 @@
 + ``cov``- covariance between two array
 + ``corr``- correlation between two array
 
+
+
+@github/support What do you think about these ?
