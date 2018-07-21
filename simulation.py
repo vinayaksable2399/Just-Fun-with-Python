@@ -21,7 +21,6 @@ Random Number Generation
 ==================== =========================================================
 Univariate distributions
 ==============================================================================
-rbeta                 Beta distribution over ``[0, 1]``.
 rbinom                Binomial distribution.
 rexp                  Exponential distribution.
 rgamma                Gamma distribution.
