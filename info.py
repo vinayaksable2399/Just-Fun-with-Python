@@ -50,5 +50,6 @@ __all__ = [
         'avg',
         'var',
         'cov',
-        'corr'
+        'corr',
+        'ntpm'
            ]
