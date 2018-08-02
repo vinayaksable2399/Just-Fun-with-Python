@@ -10,7 +10,7 @@ from math import *
 
 
 __all__ = ['mode','median'
-           ,'avg','var','cov','corr','ntpm'
+           ,'avg','var','cov','corr'
            ]
 
 def mode(x):
@@ -50,20 +50,4 @@ def corr(x,y):
        assert len(x)==len(y),"two array length are differnt"
        a=cov(x,y)/sqrt(var(x)*var(y))
        return(a)
-
-def ntpm(tmat,n=1,ini_prob=[]):
-    tpm=mat(tmat)
-    c,r=tpm.shape
-    p=0
-    for i in range(c):
-        if(sum(tpm[i,:])==1):
-            p+=1
-    assert c==r and p==r ,"please give valid tpm"
-    e=eye(c)
-    for i in range(n):
-        e=e*tpm
-    if(len(ini_prob)==0):
-        return(e)
-    else:
-        return(mat(ini_prob)*e)
 
